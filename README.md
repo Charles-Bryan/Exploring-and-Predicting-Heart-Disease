@@ -4,10 +4,10 @@ This project uses the Heart Disease Dataset from UC Irvine Machine Learning Repo
 # Conclusions
 
 ## Data
-We have data on 303 patients on 13 features that can be used to determine the presense of heart disease. We have closely looked at our data to detemrine that while there are no serious outliers, the data itself is very biased. Therefore models dervied from this data will likely be subpar at predicting the presense of heart disease. The major issue is the lack of control cases.
+We have data on 303 patients on 13 features that can be used to determine the presense of heart disease. We have closely looked at our data to determine that while there are no serious outliers the data itself is very biased. Therefore models derived from this data will likely be subpar at predicting the presense of heart disease in future patients. The major issue is the lack of control cases.
 
 ## Regression Models
-Using 10-fold stratified cross validation we have shown that Linear Regression and Logistic Regression models are not well suited for this dataset. We visually showed what these different models represented by first reducing the data to 1D representations using PCA.
+Using 10-fold stratified cross validation we have shown that Linear Regression and Logistic Regression models are not well suited for this task. This is primarily due to the targets being boolean and not a regresison task. We visually showed what these different models represented by first reducing the data to 1D representations using PCA.
 
 | Model Type | Mean Squared Error (mse) | 
 | :- | -: | 
@@ -15,7 +15,7 @@ Using 10-fold stratified cross validation we have shown that Linear Regression a
 | Logistic Regression | 0.18 |
 
 ## Classification Models
-Using 10-fold stratified cross validation we have shown decent accuracy with several untuned simple models, along with visual representations of each model. Our best performance was with a simple Random Forest model, but it is likely that all of our models would benefit from tuning.
+Using 10-fold stratified cross validation we have shown decent accuracy with several untuned simple models, along with visual representations of each model. Our best performance was with a simple Random Forest model, but it is likely that all of our models would slightly benefit from tuning.
 
 | Model Type | Accuracy | 
 | :- | -: | 
