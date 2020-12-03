@@ -1,5 +1,5 @@
 # README Introduction:
-This project uses the Heart Disease Dataset from UC Irvine Machine Learning Repository which contains 13 feature columns and 1 target column for 303 patients. We thoroughly study the data itself, the presence of bias in the data, the potential outliers in the data, the possibility of applying regresison models to the data, and the ability to apply prediction models to this data. Throughout this analysis we use plenty of visualizations that we gain further insights from. The full notebook is 'Exploring and Predicting Heart Disease.ipynb' and is best viewed in a jupyter notebook.
+This project uses the [Heart Disease Dataset](https://archive.ics.uci.edu/ml/datasets/heart+disease) from UC Irvine Machine Learning Repository which contains 13 feature columns and 1 target column for 303 patients. We thoroughly study the data itself, the presence of bias in the data, the potential outliers in the data, the possibility of applying regresison models to the data, and the ability to apply prediction models to this data. Throughout this analysis we use plenty of visualizations that we gain further insights from. The full notebook is 'Exploring and Predicting Heart Disease.ipynb' and is best viewed in a jupyter notebook.
 
 # Conclusions
 
