@@ -7,7 +7,7 @@ This project uses the [Heart Disease Dataset](https://archive.ics.uci.edu/ml/dat
 We have data on 303 patients on 13 features that can be used to determine the presense of heart disease. We have closely looked at our data to determine that while there are no serious outliers the data itself is very biased. Therefore models derived from this data will likely be subpar at predicting the presense of heart disease in future patients. The major issue is the lack of control cases.
 
 ## Regression Models
-Using 10-fold stratified cross validation we have shown that Linear Regression and Logistic Regression models are not well suited for this task. This is primarily due to the targets being boolean and not a regresison task. We visually showed what these different models represented by first reducing the data to 1D representations using PCA.
+Using 10-fold stratified cross validation we have shown that Linear Regression and Logistic Regression models are not well suited for this task. This is primarily due to the targets being boolean and not a regression task. We visually showed what these different models represented by first reducing the data to 1D representations using PCA.
 
 | Model Type | Mean Squared Error (mse) | 
 | :- | -: | 
